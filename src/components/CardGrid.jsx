@@ -16,10 +16,9 @@ function getRandNums() {
   return arr.slice(0, 12);
 }
 
-// const initialRand = getRandNums();
-
 export default function CardGrid({ characters, current, best }) {
   const [randNums, setRandNums] = useState(getRandNums());
+  const [consecutiveClicks, setConsecutiveClicks] = useState([]);
 
   return (
     <div id="card-grid">
@@ -29,6 +28,7 @@ export default function CardGrid({ characters, current, best }) {
           current={current}
           best={best}
           rand={{ set: setRandNums, get: getRandNums }}
+          cc={{ consecutiveClicks, setConsecutiveClicks }}
         />
       ))}
     </div>

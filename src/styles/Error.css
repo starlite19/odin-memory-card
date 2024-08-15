@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'name';  
+    src: url('./maven-pro.bold.ttf');
+}
+
+#loading {
+    font-family: name;
+    color: #f05321;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: 	#024da1;
+    text-align: center;
+    margin-top: 100px;
+    font-size: xxx-large;
+}

@@ -1,6 +1,34 @@
+@font-face {
+    font-family: 'naruto';
+    src: url('ninja-naruto.regular.ttf');
+}
+
+@font-face {
+    font-family: 'subtitle';  
+    src: url('./BAARS___.TTF');
+}
+
 #header {
     display: flex;
     justify-content: space-between;
-    width: 100%;
+    width: 95%;
     padding: 16px;
+}
+
+#header-title {
+    color: #f05321;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: 	#024da1;
+    font-family: naruto;
+}
+
+#instructions {
+    color: 	white;
+    font-family: subtitle;
+}
+
+#header-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }

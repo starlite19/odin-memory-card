@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'name';  
+  src: url('./maven-pro.bold.ttf');
+}
+
 .contents {
     display: flex;
     flex-direction: column;
@@ -13,7 +18,11 @@
 
 .card {
     border-radius: 8px;
-    border: 1px solid black;
+    background-color: #fcba21;
+    color: #024da1;
+    font-family: name;
+    width: 280px;
+    height: 350px;
 }
 
 .card {

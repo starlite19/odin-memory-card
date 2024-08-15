@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'naruto';
+    src: url('ninja-naruto.regular.ttf');
+}
+
+#loading {
+    font-family: naruto;
+    color: #f05321;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: 	#024da1;
+    text-align: center;
+    margin-top: 100px;
+    font-size: xxx-large;
+}

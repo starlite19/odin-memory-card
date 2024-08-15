@@ -1,3 +1,5 @@
+import "../styles/Error.css";
+
 export default function Error() {
-  return <p>A network error was encountered.</p>;
+  return <div id="error">A network error was encountered.</div>;
 }

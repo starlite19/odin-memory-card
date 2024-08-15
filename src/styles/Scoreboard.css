@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'subtitle';  
+    src: url('./BAARS___.TTF');
+}
+
+#current-score, #best-score {
+    font-family: subtitle;
+    color: white;
+}
+
+#best-score {
+    margin-left: auto;
+}

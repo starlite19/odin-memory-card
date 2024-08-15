@@ -1,3 +1,5 @@
+import "../styles/Loading.css";
+
 export default function Loading() {
-  return <p>Loading game...</p>;
+  return <div id="loading">Loading game...</div>;
 }

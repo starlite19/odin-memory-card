@@ -1,5 +1,5 @@
 # ODIN Memory Card Game
-Project deployed on 
+Project deployed on https://odin-memory-card-alpha.vercel.app/
 
 This project demonstrates the concepts of building basic REACT apps using the following knowledge:
 - REACT components

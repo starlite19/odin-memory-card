@@ -1,8 +1,19 @@
-# React + Vite
+# ODIN Memory Card Game
+Project deployed on 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project demonstrates the concepts of building basic REACT apps using the following knowledge:
+- REACT components
+- CSS
+- HTML
+- JSX
+- useState hooks
+- useEffect hooks
+- API
 
-Currently, two official plugins are available:
+Functionality:
+- Fetch and use data from an external API to display images and text
+- Click on card to update score/best score
+- Regenerate cards in random positions
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Missing functionality:
+- Does not tell you if you have completed the game (i.e. if you click all unique cards in a row)
